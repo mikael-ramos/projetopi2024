@@ -109,3 +109,26 @@
     transform: translate(-50%, -50%);
 
 }
+
+.label-dashboard{
+    display: flex;          /* Torna a lista um container flexível */
+    list-style-type: none;  /* Remove os marcadores */
+    padding: 0;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.label-listIten{
+    font-size: 22px;
+    display: inline-block;  /* Exibe os itens na horizontal */
+    margin-right: 61px;
+    
+}
+
+.label-listIten:nth-child(5){
+    position: absolute;
+    left:94%;
+}

@@ -3,7 +3,7 @@ const ctx = document.getElementById('myChart');
   new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['Gás', 'Bicicleta', 'Encomenda', 'Reclamações', 'Temperatura'],
+      labels: ['','','','',''],
       datasets: [{
         label: 'Numero de ocorrências ',
         data: [5, 12, 27, 32, 19],
@@ -12,6 +12,7 @@ const ctx = document.getElementById('myChart');
       }]
     },
     options: {
+     
       scales: {
         y: {
           suggestedMin: 0,
